@@ -1,3 +1,5 @@
+//Callback is an asynchronous equivalent for a function
+
 var fs = require("fs");
 
 var data = fs.readFileSync('input.txt');

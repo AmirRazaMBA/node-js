@@ -17,18 +17,3 @@ console.log('free memory : ' + os.freemem() + " bytes.");
 
 console.log('uptime : ' + os.uptime()/3600 + " hours.");
 
-// Node.js - Path Module
-
-var path = require("path");
-
-// Normalization
-console.log('normalization : ' + path.normalize('/test/test1//2slashes/1slash/tab/..'));
-
-// Join
-console.log('joint path : ' + path.join('/test', 'test1', '2slashes/1slash', 'tab', '..'));
-
-// Resolve
-console.log('resolve : ' + path.resolve('main.js'));
-
-// extName
-console.log('ext name : ' + path.extname('main.js'));
