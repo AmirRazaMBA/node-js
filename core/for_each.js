@@ -13,6 +13,7 @@ let myFunc = function(element){
 
 my_array.forEach(myFunc)
 
+// 3. foreach with external function as arg and element, index and array
  
 let another_myFunc = function(element, index, array) {
   console.log(index + ' : ' + element + ' - ' + array[index])
